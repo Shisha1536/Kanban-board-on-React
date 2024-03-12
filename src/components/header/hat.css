@@ -1,0 +1,8 @@
+.hat {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.hat__heading {
+    font-size: 28px;
+}

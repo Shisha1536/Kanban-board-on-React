@@ -1,3 +1,5 @@
-export default function name() {
-    'null'
+export function User() {
+    return(
+       <p>User</p>
+    )
 }
