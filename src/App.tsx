@@ -6,12 +6,13 @@ import { Content } from "./components/main/content";
 import { Basement } from "./components/footer/footer";
 
 function App() {
-  return (
-    <BrowserRouter>
-		<Hat />
-		<Content />
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Hat />
+            <Content />
+            <Basement />
+        </BrowserRouter>
+    );
 }
 
 export default App;

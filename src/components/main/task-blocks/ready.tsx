@@ -1,7 +1,9 @@
+import './task-blocks.css';
+
 export function Ready() {
     return (
-        <div>
-            'Ready'
+        <div className='block'>
+            <label className='block-label' htmlFor="#">Взять в работу</label>
         </div>
     )
 }
