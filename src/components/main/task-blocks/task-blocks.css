@@ -4,9 +4,17 @@
     padding: 12px;
     background-color: rgb(235, 236, 240);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
 }
 .block-label {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
+}
+.add-task_btn {
+    color: #5E6C84;
+    border: none;
 }

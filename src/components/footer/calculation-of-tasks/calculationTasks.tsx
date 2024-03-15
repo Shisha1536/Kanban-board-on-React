@@ -2,6 +2,8 @@ import React from 'react';
 import './calculationTasks.css';
 
 export function СalculationTasks() {
+    let date = new Date();
+    
     return(
         <React.Fragment>
             <div className='footer__task-counter'>
@@ -13,7 +15,7 @@ export function СalculationTasks() {
                 </div>
             </div>
             <div className='footer__date'>
-                <h4>Доска Канбан от </h4><p></p>
+                <h4>Доска Канбан от: </h4><p>{date.getDate()}.{Number(1+date.getMonth())}.{date.getFullYear()}</p>
             </div>
         </React.Fragment>
     )
