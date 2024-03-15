@@ -6,6 +6,7 @@ export function Backlog() {
         <div className="block">
             <label className='block-label' htmlFor="#">На уточнение</label>
             <AddTask />
+            
         </div>
     )
 }
